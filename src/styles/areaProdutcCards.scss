@@ -23,9 +23,8 @@ html {
   gap: 50px;
   margin: 0 $valueAuto;
 
-  grid-template:
-    [row1-start] 1fr
-    [row2-start] 1fr / repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
 
   grid-template-areas:
     'product1 product2 product3 product4'
